@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+	text-align:center;
+	}
+	
+span {
+	color:gray;
+	font-size:25px;
+	font-family:'Orbitron';
+	cursor: pointer;
+	}
+	
+#typed-text {
+	color:#909090;
+}
+
+.hero-block {
+	background-image: url('https://raw.githubusercontent.com/thalaivar96/AC/refs/heads/main/wp5050274.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #333;
+  border-radius:100px;
+  height: 20px;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+
+/* Rainbow effect */
+.rainbow-text {
+  background: linear-gradient(70deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 1400% 1400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowFlow 10s linear infinite;
+}
+
+@keyframes rainbowFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+	
+	
+/* Dark-themed Scrollbar (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #909090; /* Orange highlight */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* Padding illusion */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #757575;
+}
+
+.hero-space {
+    background-image: url('https://raw.githubusercontent.com/thalaivar96/AC/refs/heads/main/bg.jpg'); /* Replace with the actual filename */
+    background-size: cover;
+	padding-top:15px;
+	height: auto;
+	display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+	border: 1px solid #333;
+	border-radius:25px;
+	margin-left: auto;
+	margin-top: 10px;
+    margin-right: auto;
+}
+.hero-space {
+	color:red;
+    align-items: top;
+    justify-content: left;
+    text-align: left;
+	font-family: 'Cal Sans';
+}
+
+
+
+.hero-space {
+    font-size: 50px;
+    margin-bottom: 1px;
+    padding-left: 50px;
+    color: #FFFFFF;
+}
+
+#logo {
+	border-radius: 15px;
+	width: 30px;
+	height: auto;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+h1 {
+	
+	line-height: 65px; 
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+	font-size: 17px;
+	margin-bottom: 70px;
+	
+}
+
